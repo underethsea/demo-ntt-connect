@@ -19,7 +19,7 @@ import WormholeConnect, {
         toChain: 'Base'
       },
       showHamburgerMenu: false,
-      walletConnectProjectId: "272d5852be840e1209b4a58d7ba54355"
+      walletConnectProjectId: "343a008184fea3b0a4291304e2d66195"
     },
     routes: [
       ...nttRoutes({
