@@ -8,6 +8,10 @@ import WormholeConnect, {
     network: 'Mainnet',
     chains: ['Ethereum', 'Base'],
     tokens: ['WMain', 'WBase'],
+    rpcs: {
+      Ethereum: 'https://eth-mainnet.g.alchemy.com/v2/0ICtcSTFX0MOrm3XN6OIv75BM1Kz4YSJ',
+      Base: 'https://base-mainnet.g.alchemy.com/v2/0ICtcSTFX0MOrm3XN6OIv75BM1Kz4YSJ',
+    },
     ui: {
       title: 'Wormhole NTT UI',
       defaultInputs: {
@@ -15,6 +19,7 @@ import WormholeConnect, {
         toChain: 'Base'
       },
       showHamburgerMenu: false,
+      walletConnectProjectId: "272d5852be840e1209b4a58d7ba54355"
     },
     routes: [
       ...nttRoutes({
